@@ -1,11 +1,12 @@
-# CFB-NFL-Dash
-## Creating a dashboard of win history with the feature to look at last time two teams won the same weekend
+# CFB-NFL
+## Creating a app of win history with the feature to look at last time two teams won the same weekend
 ### Current Progress
 - 12/17/2020: Obtained data from sports-reference.com and api.collegefootballdata.com. Cleaned CFB and NFL data to be prepped for import into Tableau
 - 12/31/2020: Cleaned data further to add consistent 'WeekId' to link the NFL and CFB schedule together. Began dashboarding. This is going to be more difficult than I thought. May try something simpler.
+- 1/4/2021: Realized that a dashboard/Tableau is not the best way to present this. I am pivoting the project to be done in Python and plan on using Flask or Docker. I currently am working on making sure the program works and returns the correct values before I try to make it interactive via Flask/Docker or something else
 
 ### Potential Features
-- Actions to check the history of two teams playing on the same weekend
+- Actions to check the history of two teams playing on the same weekend/same week (we love MACtion)
 - Check for correlations between 2 teams
 - Possibly expand to more than 2 teams
 - If successful, include other leagues (NBA, NCAAB, MLB, EPL, etc.)
